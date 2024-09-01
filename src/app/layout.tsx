@@ -15,8 +15,50 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body className={inter.className}>
+        <div className="h-[45px] bg-blue text-light-gray p-[10px] text-center">We're open and available for takeaway & delivery. <a href="" className="text-white">Order Now</a></div>      
+        <header className="h-[105px] py-[25px] px-[25px] flex justify-between items-center">
+          <a href="/">
+            <img src="/icon.svg" alt="logo" className="max-w-[40px]" />
+          </a>
+          <div>
+            <ul className="hidden lg:flex justify-center items-center gap-[25px] text-gray">
+              <li><a href="/" className="md:hover:text-black">Home</a></li>
+              <li><a href="/order" className="md:hover:text-black">Order</a></li>
+              <li><a href="/company" className="md:hover:text-black">Company</a></li>
+              <li><a href="/faq" className="md:hover:text-black">FAQ</a></li>
+              <li><a href="https://web.whatsapp.com/" className="md:hover:text-black">Contact</a></li>
+            </ul>
+            <button className="bg-light-gray rounded-md w-[50px] h-[50px] p-[5px] lg:hidden flex justify-center items-center">
+              <img src="/menu-2.svg" alt="menu" />
+            </button>
+          </div>
+        </header>
+        {children}
+        <footer className="py-[25px] px-[25px] flex flex-col lg:flex-row justify-center lg:justify-around items-center gap-[50px]">
+          <div>
+            <h3 className="text-center leading-8"><b>CONPANY</b></h3>
+            <ul className="flex flex-row justify-center items-center lg:items-start gap-[25px] text-gray">
+              <li><a href="/" className="lg:hover:text-black">Home</a></li>
+              <li><a href="/order" className="lg:hover:text-black">Order</a></li>
+              <li><a href="/faq" className="lg:hover:text-black">FAQ</a></li>
+              <li><a href="https://web.whatsapp.com/" className="lg:hover:text-black">Contact</a></li>
+            </ul>
+          </div>
+          <div className="flex justify-between items-center gap-[25px]">
+            <a href=""  className="p-[10px] border-[1px] border-gray lg:hover:border-black rounded-full">
+              <img src="/social-instagram.svg" alt="social icon" />
+            </a>
+            <a href=""  className="p-[10px] border-[1px] border-gray lg:hover:border-black rounded-full">
+              <img src="/social-x.svg" alt="social icon" />
+            </a>
+            <a href=""  className="p-[10px] border-[1px] border-gray lg:hover:border-black rounded-full">
+              <img src="/social-youtube.svg" alt="social icon" />
+            </a>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }

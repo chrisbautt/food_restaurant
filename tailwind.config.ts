@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { keepTheme } from "keep-react/keepTheme";
 
 const config: Config = {
   content: [
@@ -14,7 +15,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      "blue": "#35b8be",
+      "blue-hover": "#32afb4",
+      "gray": "#546285",
+      "light-gray": "#eeeeee",
+      "white": "#ffffff",
+      "black": "#000000",
+    },
   },
   plugins: [],
 };
-export default config;
+export default keepTheme(config);
