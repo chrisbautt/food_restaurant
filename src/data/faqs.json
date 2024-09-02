@@ -1,0 +1,77 @@
+[
+  {
+    "category": "our-food",
+    "items": [
+      {
+        "question": "Do you offer any vegan options?",
+        "answer": "Yes, we have a variety of vegan dishes made with fresh ingredients to ensure the best quality."
+      },
+      {
+        "question": "Do you offer any gluten-free options?",
+        "answer": "Absolutely! We have gluten-free options available for those with dietary restrictions."
+      },
+      {
+        "question": "Are your ingredients locally sourced?",
+        "answer": "Yes, we partner with local farms to bring fresh, sustainable ingredients to your table."
+      },
+      {
+        "question": "How do you ensure food safety?",
+        "answer": "We follow strict guidelines and regularly train our staff to maintain the highest standards of food safety."
+      },
+      {
+        "question": "What makes your food different?",
+        "answer": "Our food is prepared with attention to detail, using only the finest ingredients to ensure flavor and quality."
+      }
+    ]
+  },
+  {
+    "category": "our-delivery",
+    "items": [
+      {
+        "question": "What are your delivery areas?",
+        "answer": "We currently deliver to most urban areas. You can check your eligibility during checkout."
+      },
+      {
+        "question": "Can I track my delivery?",
+        "answer": "Yes, once your order is out for delivery, you will receive a tracking link via SMS or email."
+      },
+      {
+        "question": "What is your average delivery time?",
+        "answer": "Our average delivery time is 30-45 minutes, depending on your location and time of day."
+      },
+      {
+        "question": "Do you offer contactless delivery?",
+        "answer": "Yes, we offer contactless delivery to ensure your safety and comfort during the pandemic."
+      },
+      {
+        "question": "Is there a minimum order for delivery?",
+        "answer": "Yes, the minimum order for delivery is $15, excluding taxes and fees."
+      }
+    ]
+  },
+  {
+    "category": "our-company",
+    "items": [
+      {
+        "question": "What is your company’s mission?",
+        "answer": "Our mission is to provide healthy, high-quality food while supporting sustainable farming practices."
+      },
+      {
+        "question": "How long has your company been in business?",
+        "answer": "We have been serving our community with fresh food for over 10 years."
+      },
+      {
+        "question": "How do you support sustainability?",
+        "answer": "We support sustainability by sourcing locally and reducing food waste through careful planning."
+      },
+      {
+        "question": "Do you have any community initiatives?",
+        "answer": "Yes, we are involved in various community initiatives, including food drives and partnerships with local charities."
+      },
+      {
+        "question": "How do you ensure quality in your services?",
+        "answer": "We constantly monitor feedback, train our staff, and make improvements to ensure top-notch quality in everything we do."
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "category": "burgers",
+    "items": [
+      {
+        "image": "/burgers/burger-dreams.png",
+        "name": "Burger Dreams",
+        "price": 9.20,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A delicious burger crafted with a blend of exotic spices and fresh ingredients. The patty is perfectly seasoned and grilled to juicy perfection, while the bun is toasted to a golden crisp. Accompanied by crisp lettuce, ripe tomatoes, and a special sauce that adds a delightful kick. Ideal for those who dream of a burger experience that's both satisfying and memorable."
+      },
+      {
+        "image": "/burgers/burger-waldo.png",
+        "name": "Burger Waldo",
+        "price": 10.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A classic burger featuring a juicy patty topped with crispy bacon and melted cheddar cheese. The burger is served on a soft, toasted bun with fresh lettuce, tomatoes, and pickles. The rich flavors of the bacon and cheese are complemented by a tangy barbecue sauce, making this burger a timeless favorite for all burger enthusiasts."
+      },
+      {
+        "image": "/burgers/burger-cali.png",
+        "name": "Burger Cali",
+        "price": 8.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "Inspired by the sunny state of California, this burger features a fresh, creamy avocado spread and a layer of crisp lettuce. The patty is grilled to perfection and paired with juicy tomatoes and a light lemon aioli sauce. The combination of these ingredients creates a refreshing and healthy burger experience, perfect for those who love a taste of the West Coast."
+      },
+      {
+        "image": "/burgers/burger-bacon-buddy.png",
+        "name": "Burger Bacon Buddy",
+        "price": 9.99,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A savory burger that's all about bacon. This burger features a thick patty topped with layers of crispy bacon and melted Swiss cheese. The rich flavors are enhanced by a smoky barbecue sauce and served on a toasted brioche bun. Each bite is a satisfying blend of smoky, savory, and cheesy goodness, making it a must-try for bacon lovers."
+      },
+      {
+        "image": "/burgers/burger-spicy.png",
+        "name": "Burger Spicy",
+        "price": 9.20,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "For those who like a bit of heat, the Burger Spicy delivers with a spicy jalapeño sauce and a sprinkle of chili flakes. The patty is seasoned with a blend of spicy spices and topped with fresh jalapeños and a zesty sriracha mayo. Served on a lightly toasted bun, this burger offers a fiery kick that's balanced by cool, crisp lettuce and tomatoes."
+      },
+      {
+        "image": "/burgers/burger-classic.png",
+        "name": "Burger Classic",
+        "price": 8.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "The Burger Classic is a timeless favorite, featuring a perfectly seasoned patty cooked to your liking. Topped with fresh lettuce, juicy tomatoes, and a slice of pickles, this burger is served on a soft, toasted bun. The classic combination of flavors is enhanced by a generous spread of mayonnaise and ketchup, making it a quintessential burger experience."
+      }
+    ]
+  },
+  {
+    "category": "sides",
+    "items": [
+      {
+        "image": "/sides/salad-ceaser.png",
+        "name": "Salad Ceaser",
+        "price": 6.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A fresh Caesar salad that combines crisp romaine lettuce with crunchy croutons and a creamy Caesar dressing. Topped with freshly grated Parmesan cheese and a hint of garlic, this salad offers a satisfying crunch and a rich, tangy flavor that's perfect as a side or a light meal on its own."
+      },
+      {
+        "image": "/sides/beans-slow-cooked.png",
+        "name": "Beans Slow Cooked",
+        "price": 4.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "Hearty beans slow-cooked to perfection with a blend of spices and herbs. This dish features tender beans simmered for hours, allowing the flavors to meld into a rich, savory stew. The beans are seasoned with smoked paprika, garlic, and a touch of cumin, providing a comforting and flavorful side dish that's both filling and delicious."
+      },
+      {
+        "image": "/sides/fries-cheese.png",
+        "name": "Fries Cheese",
+        "price": 5.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "Golden, crispy fries topped with a generous layer of melted cheese and a sprinkle of fresh herbs. The fries are cooked to perfection, with a crispy exterior and a fluffy interior. The melted cheese adds a rich, creamy layer of flavor, making this side dish a decadent and indulgent treat."
+      },
+      {
+        "image": "/sides/fries-rustic.png",
+        "name": "Fries Rustic",
+        "price": 4.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "Rustic fries with a hearty, crispy exterior and a soft, fluffy interior. These fries are seasoned with a blend of sea salt and black pepper, giving them a simple yet satisfying flavor. Perfectly fried and served hot, they make an excellent companion to any main dish or can be enjoyed on their own with your favorite dipping sauce."
+      }
+    ]
+  },
+  {
+    "category": "drinks",
+    "items": [
+      {
+        "image": "/drinks/drink-fig-lime.png",
+        "name": "Drink Fig & Lime",
+        "price": 4.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A refreshing and unique drink that combines the sweet, rich flavor of figs with the tartness of lime. This beverage is both invigorating and satisfying, offering a perfect balance of sweet and tangy notes. Ideal for a refreshing pick-me-up on a warm day or as a complement to any meal."
+      },
+      {
+        "image": "/drinks/drink-liquor.png",
+        "name": "Drink Liquor",
+        "price": 7.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A bold and robust drink with a strong liquor flavor. This beverage is crafted for those who appreciate a more intense and complex taste profile. The drink offers a smooth finish with hints of caramel and oak, making it an excellent choice for those who enjoy a strong, flavorful beverage."
+      },
+      {
+        "image": "/drinks/drink-lime.png",
+        "name": "Drink Lime",
+        "price": 4.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A tangy and refreshing lime drink that's perfect for quenching your thirst. This beverage is made with real lime juice and offers a crisp, invigorating flavor. Ideal for pairing with your favorite meal or enjoying on its own as a cool, refreshing treat."
+      },
+      {
+        "image": "/drinks/drink-cola.png",
+        "name": "Drink Cola",
+        "price": 3.00,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "description": "A classic cola drink with a perfect blend of sweetness and carbonation. This fizzy beverage is known for its bold, refreshing flavor and is a popular choice for pairing with a wide variety of meals. Enjoy the familiar taste of cola with its iconic effervescence and satisfying finish."
+      }
+    ]
+  }
+]

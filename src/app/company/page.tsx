@@ -17,9 +17,6 @@ export default function Company() {
                   </div>
                 </section>
                 <section className="min-h-[75vh] bg-black text-white flex flex-wrap justify-around items-center py-[50px] px-[50px] lg:px-[100px] gap-[50px]">
-                    {/* <div>
-                        <img src="" alt="" />
-                    </div> */}
                     <div className="max-w-[400px] text-center">
                         <h2 className="text-7xl"><b>62</b></h2>
                         <img src="wave blue.svg" alt="wave" className="my-[25px] mx-auto" />
