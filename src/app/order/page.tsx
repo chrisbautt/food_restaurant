@@ -23,7 +23,7 @@ export default function Order() {
                     <h1 className="text-6xl text-center max-w-[750px] mx-auto"><b>Get your food <span className="text-blue">delivered</span>, or <span className="text-blue">pick-up</span> in store.</b></h1>
                     <div></div>
                 </section>
-                <section>
+                <section className="py-[50px] px-[25px] lg:px-[50px]">
                   <OrderFilter onFilterChange={handleFilterChange} showFullMenuButton={true} />
         
                   <div className="flex flex-wrap justify-center items-center gap-[15px] my-[50px]">

@@ -44,9 +44,9 @@ export default function RootLayout({
           </NavbarContainer>
         </Navbar>
         {children}
-        <footer className="py-[25px] px-[25px] flex flex-col lg:flex-row justify-center lg:justify-around items-center gap-[50px]">
+        <footer className="h-[150px] bg-light-gray py-[25px] px-[25px] flex flex-col lg:flex-row justify-center lg:justify-around items-center gap-[50px]">
           <div>
-            <h3 className="text-center leading-8"><b>CONPANY</b></h3>
+            <h3 className="text-center leading-10"><b>CONPANY</b></h3>
             <ul className="flex flex-row justify-center items-center lg:items-start gap-[25px] text-gray">
               <li><a href="/" className="lg:hover:text-black">Home</a></li>
               <li><a href="/order" className="lg:hover:text-black">Order</a></li>
