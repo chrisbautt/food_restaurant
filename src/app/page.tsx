@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { useState } from "react";
 import OrderFilter from "@/components/order-filter";
 import OrderCard from "@/components/order-card";
@@ -20,12 +21,20 @@ export default function Home() {
     <main>
       <section className="flex flex-col lg:flex-row justify-between items-center py-[50px] px-[25px] lg:px-[80px] gap-[50px]">
         <div className="w-full text-center lg:text-start">
-          <h2 className="text-5xl"><b>Beautiful food & takeaway, <span className="text-blue">delivered</span> to your door.</b></h2>
+          <h1 className="text-5xl"><b>Beautiful food & takeaway, <span className="text-blue">delivered</span> to your door.</b></h1>
           <p className="text-gray my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
           <a href="/order" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Place an Order</a>
         </div>
         <div className="w-full">
-          <img src="/hero-image.png" alt="" className="mx-auto" />
+          <Image 
+            src='/hero-image.png'
+            alt='Hero'
+            width={576}
+            height={557}
+            sizes="fill"
+            priority
+            className="mx-auto"
+          />
         </div>
       </section>
       <section className="flex flex-col lg:flex-row justify-between items-center py-[50px] px-[25px] lg:px-[80px] gap-[50px]">
@@ -36,7 +45,14 @@ export default function Home() {
           <a href="/company" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Learn About us</a>
         </div>
         <div className="w-full">
-          <img src="/group-33.png" alt="Group 33" className="mx-auto" />
+          <Image 
+            src='/group-33.png'
+            alt='Group 33'
+            width={523}
+            height={614}
+            sizes="fill"
+            className="mx-auto"
+          />
         </div>
       </section>
       <section className="py-[50px] px-[25px] lg:px-[80px] gap-[50px] text-center">
@@ -44,21 +60,42 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start gap-[60px] max-w-[400px] md:max-w-full mt-[50px] mx-auto text-lg">
           <div className="w-full">
             <div className="mb-[50px]">
-              <img src="/step-01.png" alt="Step" className="mx-auto" />
+              <Image 
+                src='/step-01.png'
+                alt='Step'
+                width={454}
+                height={364}
+                sizes="fill"
+                className="mx-auto"
+              />
             </div>
             <h3><b>Adapt your menu items</b></h3>
             <p className="text-gray">Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
           </div>
           <div className="w-full">
             <div className="mb-[50px]">
-              <img src="/step-02.png" alt="Step" className="mx-auto" />
+              <Image 
+                src='/step-02.png'
+                alt='Step'
+                width={454}
+                height={364}
+                sizes="fill"
+                className="mx-auto"
+              />
             </div>
             <h3><b>Accept online orders & takeout</b></h3>
             <p className="text-gray">Let your customers order and pay via the powerful ecommerce system, or simple let them call your store.</p>
           </div>
           <div className="w-full">
             <div className="mb-[50px]">
-              <img src="/step-03.png" alt="Step" className="mx-auto" />
+              <Image 
+                src='/step-03.png'
+                alt='Step'
+                width={454}
+                height={364}
+                sizes="fill"
+                className="mx-auto"
+              />
             </div>
             <h3><b>Manage delivery or takeout</b></h3>
             <p className="text-gray">Manage your own logistics and take orders simply through the ecommerce system.</p>
@@ -85,7 +122,14 @@ export default function Home() {
       </section>
       <section className="flex flex-col lg:flex-row justify-between items-center py-[50px] px-[25px] lg:px-[80px] gap-[50px]">
         <div className="w-full">
-          <img src="/phones.png" alt="Phones" className="mx-auto" />
+          <Image 
+            src='/phones.png'
+            alt='Phones'
+            width={2103}
+            height={2132}
+            sizes="fill"
+            className="mx-auto"
+          />
         </div>
         <div className="w-full text-center lg:text-start">
           <h2 className="text-5xl text-blue"><b>Order online with our simple checkout.</b></h2>
@@ -100,7 +144,14 @@ export default function Home() {
           <a href="https://web.whatsapp.com/" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Ph. +61 233 2333</a>
         </div>
         <div className="w-full">
-          <img src="/food-takeaway.png" alt="Food Takeaway" className="mx-auto" />
+          <Image 
+            src='/food-takeaway.png'
+            alt='Food Takeaway'
+            width={527}
+            height={567}
+            sizes="fill"
+            className="mx-auto"
+          />
         </div>
       </section>
     </main>

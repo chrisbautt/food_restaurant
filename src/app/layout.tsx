@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={inter.className}>
-        <div className="h-[45px] bg-blue text-light-gray p-[10px] text-center">We're open and available for takeaway & delivery. <a href="/order" className="text-white">Order Now</a></div>      
+        <div className="h-[45px] bg-blue text-light-gray p-[10px] text-center"><small>We're open and available for takeaway & delivery. <a href="/order" className="text-white">Order Now</a></small></div>
         <Navbar  className="h-[105px] py-[25px] px-[25px]">
           <NavbarContainer>
             <NavbarBrand>

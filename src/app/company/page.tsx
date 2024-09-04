@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Company() {
     return (
         <>
@@ -12,8 +14,15 @@ export default function Company() {
                     <p className="text-gray my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde itaque culpa eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, autem.</p>
                     <p className="text-gray my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae totam mollitia dolorum perferendis voluptas ipsa, ipsum quos sequi omnis ducimus aspernatur quod, quibusdam quam exercitationem, culpa voluptatem laboriosam ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi, maiores accusantium eius aut molestias rem iusto hic consequatur incidunt iure ipsum nobis, est neque ipsam explicabo excepturi expedita? Ab.</p>
                   </div>
-                  <div className="w-full">
-                    <img src="/team.png" alt="Team" className="mx-auto" />
+                  <div className="w-full relative">
+                    <Image 
+                        src='/team.png' 
+                        alt='Team'
+                        sizes="fill"
+                        width={742}
+                        height={862}
+                        className="mx-auto"
+                    />
                   </div>
                 </section>
                 <section className="min-h-[75vh] bg-black text-white flex flex-wrap justify-around items-center py-[50px] px-[50px] lg:px-[100px] gap-[50px]">
