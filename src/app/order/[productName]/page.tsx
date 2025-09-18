@@ -1,4 +1,5 @@
 import orders from '@/data/orders.json';
+import Image from 'next/image';
 
 interface Product {
   image: string;
@@ -56,7 +57,13 @@ export default async function ProductPage({ params }: { params: { productName: s
         </section>
         <section className="flex flex-col lg:flex-row justify-between items-center py-[50px] px-[50px] lg:px-[100px] gap-[50px]">
           <div className="w-full">
-            <img src={product.image} alt={product.name} className="mx-auto rounded-[25px]" />
+            <Image 
+              src={product.image} 
+              alt={product.name} 
+              className="mx-auto rounded-[25px]" 
+              width={500}
+              height={500}
+            />
           </div>
           <div className="w-full text-center lg:text-start">
             <h2 className="text-5xl">
@@ -67,7 +74,7 @@ export default async function ProductPage({ params }: { params: { productName: s
             <p className="my-5">
               <b>DESCRIPTION</b>
             </p>
-            <p className="text-gray my-5">{product.description}</p>
+            <p className="text-[#333333] my-5">{product.description}</p>
             <hr className="border-light-gray shadow-xl shadow-light-gray" />
           </div>
         </section>

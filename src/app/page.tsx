@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import OrderFilter from "@/components/order-filter";
 import OrderCard from "@/components/order-card";
@@ -23,7 +24,7 @@ export default function Home() {
         <div className="w-full text-center lg:text-start">
           <h1 className="text-5xl"><b>Beautiful food & takeaway, <span className="text-blue">delivered</span> to your door.</b></h1>
           <p className="text-gray my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-          <a href="/order" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Place an Order</a>
+          <Link href="/order" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Place an Order</Link>
         </div>
         <div className="w-full">
           <Image 
@@ -42,7 +43,7 @@ export default function Home() {
           <h2 className="text-5xl text-blue"><b>The home of
           fresh products</b></h2>
           <p className="text-gray my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-          <a href="/company" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Learn About us</a>
+          <Link href="/company" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Learn About us</Link>
         </div>
         <div className="w-full">
           <Image 
@@ -118,7 +119,7 @@ export default function Home() {
             />
           ))}
         </div>
-        <a href="/order" className="bg-blue text-white py-5 px-10 rounded-md lg:hover:bg-blue-hover mx-auto lg:mx-0">See Full Menu</a>
+        <Link href="/order" className="bg-blue text-white py-5 px-10 rounded-md lg:hover:bg-blue-hover mx-auto lg:mx-0">See Full Menu</Link>
       </section>
       <section className="flex flex-col lg:flex-row justify-between items-center py-[50px] px-[25px] lg:px-[80px] gap-[50px]">
         <div className="w-full">
@@ -134,14 +135,14 @@ export default function Home() {
         <div className="w-full text-center lg:text-start">
           <h2 className="text-5xl text-blue"><b>Order online with our simple checkout.</b></h2>
           <p className="text-gray my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-          <a href="/faq" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">See our FAQ</a>
+          <Link href="/faq" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">See our FAQ</Link>
         </div>
       </section>
       <section className="flex flex-col lg:flex-row justify-between items-center py-[50px] px-[25px] lg:px-[80px] gap-[50px]">
         <div className="w-full text-center lg:text-start">
           <h2 className="text-5xl text-blue"><b>Call our store and takeaway when it suits you best.</b></h2>
           <p className="text-gray my-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-          <a href="https://web.whatsapp.com/" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Ph. +61 233 2333</a>
+          <Link href="https://web.whatsapp.com/" className="bg-blue text-white py-5 px-10 rounded-md hover:bg-blue-hover mx-auto lg:mx-0">Ph. +61 233 2333</Link>
         </div>
         <div className="w-full">
           <Image 

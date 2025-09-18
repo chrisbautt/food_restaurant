@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface OrderCardProps {
     image: string;
@@ -11,7 +12,7 @@ const OrderCard: React.FC<OrderCardProps> = (props) => {
     return (
         <>
             <div className="max-w-[350px] md:hover:border-blue p-[15px] border-[1px] border-light-gray rounded-xl text-start flex flex-col md:flex-row md:max-w-full lg:min-w-[500px] lg:max-w-[600px] gap-[25px]">
-                <a href={`/order/${encodeURIComponent(props.name)}`} className="block relative">
+                <Link href={`/order/${encodeURIComponent(props.name)}`} className="block relative">
                     <Image 
                         src={props.image} 
                         alt={props.name}
@@ -19,13 +20,13 @@ const OrderCard: React.FC<OrderCardProps> = (props) => {
                         height={500}
                         className="rounded-xl md:max-w-[150px] object-fill" 
                     />
-                </a>
+                </Link>
                 <div>
                     <div>
                         <div className="md:flex md:justify-between md:items-center">
-                            <a href={`/order/${encodeURIComponent(props.name)}`}>
+                            <Link href={`/order/${encodeURIComponent(props.name)}`}>
                                 <h3 className="text-md cursor-pointer"><b>{props.name}</b></h3>
-                            </a>
+                            </Link>
                             <span className="text-blue">$ {props.price} USD</span>
                         </div>
                         <p className="my-[15px] text-gray">{props.content}</p>
