@@ -26,7 +26,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function getProduct(productName: string) {
+async function getProduct(productName: string) {
   let product: Product | null = null;
 
   for (const category of orders) {
