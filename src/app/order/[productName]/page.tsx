@@ -17,20 +17,20 @@ interface Category {
 export async function generateStaticParams() {
   const paths = orders.flatMap((category: Category) =>
     category.items.map((product) => ({
-      productName: encodeURIComponent(product.name),
+      productName: product.name,
     }))
   );
 
-  return paths.map(({ productName }) => ({
-    productName,
-  }));
+  return paths;
 }
 
-async function getProduct(productName: string) {
+export async function getProduct(productName: string) {
   let product: Product | null = null;
 
+  const decodedName = decodeURIComponent(productName);
+
   for (const category of orders) {
-    const foundProduct = category.items.find((item) => item.name === decodeURIComponent(productName));
+    const foundProduct = category.items.find((item) => item.name === decodedName);
     if (foundProduct) {
       product = foundProduct;
       break;
