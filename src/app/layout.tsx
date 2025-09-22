@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={inter.className}>
-        <div className="h-[45px] bg-blue text-light-gray p-[10px] text-center"><small>We're open and available for takeaway & delivery. <Link href="/order" className="text-white">Order Now</Link></small></div>
+        <div className="h-[45px] bg-blue text-light-gray p-[10px] text-center"><small>We&apos;re open and available for takeaway & delivery. <Link href="/order" className="text-white">Order Now</Link></small></div>
         <Navbar  className="h-[105px] py-[25px] px-[25px]">
           <NavbarContainer>
             <NavbarBrand>
