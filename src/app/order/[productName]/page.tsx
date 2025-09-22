@@ -1,5 +1,6 @@
 import orders from '@/data/orders.json';
 import Image from 'next/image';
+import { getProduct } from '@/utils/getProduct';
 
 interface Product {
   image: string;
@@ -22,22 +23,6 @@ export async function generateStaticParams() {
   );
 
   return paths;
-}
-
-export async function getProduct(productName: string) {
-  let product: Product | null = null;
-
-  const decodedName = decodeURIComponent(productName);
-
-  for (const category of orders) {
-    const foundProduct = category.items.find((item) => item.name === decodedName);
-    if (foundProduct) {
-      product = foundProduct;
-      break;
-    }
-  }
-
-  return product;
 }
 
 export default async function ProductPage({ params }: { params: { productName: string } }) {
